@@ -1,0 +1,30 @@
+What is XMVB ?
+==================
+
+Xiamen Valence Bond (XMVB) is a quantum chemistry program  for performing electronic structure calculations based on the non-orthogonal Valence Bond methods.
+
+In the current arena of theoretical and computational chemistry, molecular orbital (MO) based methods undoubtedly are enjoying the overwhelming dominance, largely due to their high computational efficients. Apart from the MO theory, however, valence bond (VB) theory remains the widespread conceptual matrix for chemists, thus the development of novel algorithms and practical programs for the *ab initio* VB theory have been an endeavor for many of us.
+
+The VB project at Xiamen University was initiated in 1986, when a spin-free form of VBmethod was independently proposed. In 1989, we wrote a simple VB code and applied it to H<sub>3</sub> molecule. The systematic development of a complete and efficient VB code neverthelessgained the momentum in 1992, when an algorithm based on the left coset decomposition of thesymmetric group was proposed and programmed.<sup>[1,2]</sup> In 1995, we further developed an algorithm called the paired-permanent-determinant (PPD) approach,<sup>[3–6]</sup>which is more efficient forsystems of many covalent bonds than the traditional Slater expansion algorithm, on which ourprevious VB code, Xiamen-99, was based. In the last twenty years, we continued optimizingthe code and implementing some newly developed VB approaches into the code. To distinguishour VB code from our city whose name is Xiamen, the code was renamed as XMVB<sup>[7]</sup>in 2002,beginning with Version 1.0. After ten years, Version 2.0 was released. XMVB 2.1 was releasedin 2015. Now, a new version of XMVB, XMVB 3.0, is released.
+
+The motivation of the development of the XMVB package is to provide chemists with awell-designed and efficient program to perform both classical and modern valence bond calculations at *ab initio* level. To gain chemical lucidity from VB theory, the XMVB package usesHeitler-London-Slater-Pauling (HLSP) functions as state functions. The superposition of a setof HLSP functions result in the wave function for a system. VB orbitals may be strictly localized, delocalized, or bonded-distorted (semi-localized), depending on particular applications.
+
+Currently, there are 2 mechanisms of distribution available for users: module and stand-alone package. The module distribution is a module for the GAMESS-US package implemented with Fortran 77; while the stand-alone distribution obtains integrals from utility PREINTand performs VB computations as a stand-alone program. The syntaxes of XMVB input files are the same for both distributions. Incorporating our VB code into the GAMESS-US packageallows more hybrid VB methods, such as DFVB, VBPCM, and VBEFP, to be performed. Thestand-alone package is implemented with Fortran 90 and parallelization has been introduced.The users may choose which version to use by themselves.
+
+What's New in Version 3.0 ?
+===========================
+$\alpha$
+Compared with XMVB 2.0 and 2.1, the following features are available in XMVB 2.1:
+
+More basis sets and elements supported for XMVB and PREINT.
+
+Integrals can be calculated directly in XMVB calculations instead of read from file.
+
+Cholesky decomposition for ERI is available.
+
+Tensor-based VBSCF based on biothorgonal orbitals is implemented.
+
+Seniority number constrained VBSCF is implemented.
+
+What can be done with XMVB ?
+===============================

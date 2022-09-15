@@ -1,0 +1,4 @@
+Bibliography
+====================
+   
+.. [#] Zhang, Q.; Li, X. Journal of Molecular Structure 1989, 198, 417.

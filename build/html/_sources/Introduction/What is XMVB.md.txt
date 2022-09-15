@@ -1,0 +1,15 @@
+What is XMVB ?
+==================
+
+Xiamen Valence Bond (XMVB) is a quantum chemistry program  for performing electronic structure calculations based on the non-orthogonal Valence Bond methods.
+
+In the current arena of theoretical and computational chemistry, molecular orbital (MO) based methods undoubtedly are enjoying the overwhelming dominance, largely due to their high computational efficients. Apart from the MO theory, however, valence bond (VB) theory remains the widespread conceptual matrix for chemists, thus the development of novel algorithms and practical programs for the ab initio VB theory have been an endeavor for many of us.
+
+
+
+What's New in Version 3.0 ?
+===========================
+
+Compared with XMVB 2.0 and 2.1, the following features are available in XMVB 2.1:
+
+
